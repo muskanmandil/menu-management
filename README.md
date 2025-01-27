@@ -3,7 +3,7 @@
 
 ## **Project Overview**
 
-The **Menu Management Server** is an assignment for Guestara  Node.js Internship.
+The **Menu Management Server** is an assignment for Guestara Internship.
 
 The project is built with  **Node.js/Express** for the backend, and it integrates with a **MongoDB** database for storing data.
 
@@ -12,7 +12,7 @@ The project is built with  **Node.js/Express** for the backend, and it integrate
 
 ## **Project Setup**
 
-To get started with the frontend, follow these steps:
+To set this project locally, follow these steps:
 
 1. **Clone the repository:**
 
@@ -27,7 +27,15 @@ To get started with the frontend, follow these steps:
    npm install
    ```
 
-3. **Start the server:**
+3. **Add the `.env` file:**
+
+   Create a `.env` file and set the `MONGO_URI` environment variable:
+
+   ```env
+   MONGO_URI="mongodb+srv://muskanmandil:KomC5RciMtDlvVT1@cluster0.38pt8.mongodb.net/main"
+   ```
+
+4. **Start the server:**
 
    ```bash
    node index.js
